@@ -1,4 +1,5 @@
 import React from 'react'
+import LikeButton from './LikeButton'
 
 const Article = (props) => {
     return (
@@ -11,6 +12,7 @@ const Article = (props) => {
                 <input type="text" id="body" onChange={() => props.createBody()}/>
                 <p>{props.body}</p>
             </div>
+            <LikeButton count={props.count} />
         </div>
     )
 }
