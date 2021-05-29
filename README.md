@@ -1,3 +1,6 @@
+### Reactの勉強　Youtube参考に https://www.youtube.com/watch?v=2jRkPz4-hSo&list=PLX8Rsrpnn3IWKz6H5ZEPWBY8AKWwb9qq7&index=6
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
