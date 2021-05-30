@@ -1,7 +1,8 @@
 import React from 'react'
 import Article from './Article'
 
-class Blog extends React.Component {
+const Blog = () => {
+    /*
     constructor(props) {
         super(props)
         this.state = {
@@ -10,7 +11,8 @@ class Blog extends React.Component {
             count: 0,
         }
     }
-
+    */
+    /*
     componentDidMount() {
         document.getElementById('likeButton').addEventListener('click', this.countUp)
     }
@@ -29,6 +31,7 @@ class Blog extends React.Component {
             isPublished: !this.state.isPublished
         })
     };
+
     createBody = (input) => {
         this.setState({
             body: "文字が入力できない状態です。"
@@ -39,20 +42,19 @@ class Blog extends React.Component {
             count: this.state.count + 1
         })
     };
-    render() {
-        return (
-            <React.Fragment>
-            <Article
-                title="Reactの使い方"
-                isPublished={this.state.isPublished}
-                toggle={() => this.togglePublished()}   //関数型で渡さないと無限ループが起きるので注意！
-                createBody={() => this.createBody()}
-                body={this.state.body}
-                count = {this.state.count}
-            />
-            </React.Fragment>
+    */
+    return (
+        <React.Fragment>
+        <Article
+            //title="Reactの使い方"
+            // isPublished={this.state.isPublished}
+            // toggle={() => this.togglePublished()}   //関数型で渡さないと無限ループが起きるので注意！
+            // createBody={() => this.createBody()}
+            // body={this.state.body}
+            // count = {this.state.count}
+        />
+        </React.Fragment>
         )
-    };
 }
 
 export default Blog
